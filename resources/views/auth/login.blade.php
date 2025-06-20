@@ -1,18 +1,16 @@
     <!-- <x-auth-session-status class="mb-4" :status="session('status')" /> -->
     <x-guest-layout>
-    <section style="background: #dee7ff; width: 100%; margin-top: -2%;">
+    <section">
         <div class="row">
             <div class="container">
                 <div class="col-lg-12">
-                    <div class="card" style="width: 460px; margin: 6% auto; border: none; background:rgba(255, 255, 255, 1);">
+                    <div class="card border-0 shadow" style="width: 460px; margin: 4% auto; border:1px solid #dee7ff;">
                         <div class="card-header text-center p-3" style="border: none;">
                             <h3 style="font-weight: bold;">Login Todo App</h3>
                         </div>
 
                         <div class="card-body">
-                            <!-- Session Status -->
                             <x-auth-session-status class="mb-3 text-danger" :status="session('status')" />
-
                             <form method="POST" action="{{ route('login') }}">
                                 @csrf
 

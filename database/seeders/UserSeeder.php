@@ -7,16 +7,19 @@ use Illuminate\Database\Seeder;
 use App\Models\User;
 
 class UserSeeder extends Seeder
-{
-    /**
-     * Run the database seeds.
-     */
+{ 
     public function run(): void
     {
         User::create([
-            'name' => 'Administrator',
-            'email' => 'Administrator@todoapp.com',
-            'password' => bcrypt('administrator4321'),
+            'name' => 'Alpian',
+            'email' => 'Alpian@todoapp.com',
+            'password' => bcrypt('alpian4321'),
+        ]);
+
+        User::create([
+            'name' => 'Kanza',
+            'email' => 'Kanza@todoapp.com',
+            'password' => bcrypt('kanza1234'),
         ]);
     }
 }

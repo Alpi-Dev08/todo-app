@@ -1,8 +1,8 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+<nav class="navbar navbar-expand-lg navbar-white bg-white border-bottom">
     <div class="container">
         <!-- Logo -->
         <a class="navbar-brand fw-bold" href="{{ route('dashboard') }}">
-            TodoApp
+            Todo App
         </a>
 
         <!-- for mobile -->
@@ -21,17 +21,12 @@
                     </a>
                     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
                         <li>
-                            <x-dropdown-link :href="route('profile.edit')" class="dropdown-item">
-                                {{ __('Profile') }}
-                            </x-dropdown-link>
-                        </li>
-                        <li>
                             <form method="POST" action="{{ route('logout') }}">
                                 @csrf
                                 <x-dropdown-link :href="route('logout')" class="dropdown-item"
                                     onclick="event.preventDefault(); this.closest('form').submit();">
                                     {{ __('Log Out') }}
-                                </x-dropdown-link>
+                                </x-dropdown-link> 
                             </form>
                         </li>
                     </ul>

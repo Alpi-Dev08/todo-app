@@ -14,7 +14,7 @@
         <!-- Scripts -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">    </head>
     </head>
-    <body class="font-sans antialiased">
+    <body class="font-sans antialiased bg-light">
         <div class="min-h-screen bg-gray-100 dark:bg-gray-900">
             @include('layouts.navigation')
 

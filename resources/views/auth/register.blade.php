@@ -1,10 +1,10 @@
 <x-guest-layout>
-    <section class="bg-info min-vh-100 d-flex align-items-center">
+    <section class="min-vh-90 d-flex align-items-center">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-5">
-                    <div class="card border-0 shadow" style="background: rgba(255, 255, 255, 1);">
-                        <div class="card-header text-center bg-white p-4 border-0">
+                    <div class="card border-0 shadow" style="border:1px solid #dee7ff;">
+                        <div class="card-header text-center p-4 border-0">
                             <h3 class="fw-bold">Registration</h3>
                         </div>
 
