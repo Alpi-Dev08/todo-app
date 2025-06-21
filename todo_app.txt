@@ -1,0 +1,198 @@
+    1  sudo apt install php -y
+    2  sudo apt install php -cli -y
+    3  sudo apt install php-cli -y
+    4  sudo apt install php-mbstring -y
+    5  sudo apt install php-xml -y
+    6  sudo apt install php-bcmath -y
+    7  sudo apt install php-curl -y
+    8  sudo apt install php-zip -y
+    9  sudo apt install unzip -y
+   10  sudo apt install curl -y
+   11  sudo apt install git -y
+   12  curl -sS https://getcomposer.org/installer | php
+   13  sudo mv composer.phar /usr/local/bin/composer
+   14  composer -v
+   15  composer global require laravel/installer
+   16  sudo nano /etc/resolv.conf
+   17  ping google.com
+   18  composer global require laravel/installer
+   19  laravel new todo-app
+   20  cd
+   21  laravel new todo-app
+   22  composer global require laravel/installer
+   23  echo 'export PATH="$HOME/.config/composer/vendor/bin:$PATH"' >> ~/.bashrc
+   24  source ~/.bashrc
+   25  laravel --version
+   26  composer create-project laravel/laravel:^11.0 todo-app
+   27  cd todo-app
+   28  php artisan --version
+   29  php artisan serve
+   30  cls
+   31  code .
+   32  cd ~/todo-app
+   33  code .
+   34  export PATH="$PATH:/mnt/c/Users/YourWindowsUsername/AppData/Local/Programs/Microsoft VS Code/bin"
+   35  cd ~/todo-app
+   36  export PATH="$PATH:/mnt/c/Users/YourWindowsUsername/AppData/Local/Programs/Microsoft VS Code/bin"
+   37  cd ~/todo-app
+   38  code .
+   39  sudo service mysql status
+   40  sudo apt update
+   41  sudo apt install mysql-server-y
+   42  sudo service mysql start
+   43  sudo service mysql status
+   44  sudo apt install mysql-server -y
+   45  sudo service mysql start
+   46  sudo service mysql status
+   47  sudo mysql
+   48  php artisan config:clear
+   49  php artisan migrate
+   50  sudo apt update
+   51  sudo apt install mysql-server-y
+   52  php artisan serve
+   53  php artisan migrate
+   54  sudo apt update
+   55  sudo apt install php-mysql -y
+   56  php -m | grep mysql
+   57  php artisan config:clear
+   58  php artisan migrate
+   59  sudo mysql
+   60  php artisan config:clear
+   61  php artisan cache:clear
+   62  sudo mysql
+   63  php artisan config:clear
+   64  php artisan migrate:fresh
+   65  php artisan serve
+   66  git init
+   67  git add .
+   68  git commit -m "Setup project todo-app"
+   69  git remote add origin https://github.com/Alpi-Dev08/todo-app.git
+   70  git config --global user.name "Alpi-Dev08"
+   71  git config --global user.email "ahmadaldialvian@gmail.com"
+   72  git commit -m "Setup project todo-app"
+   73  git push -u origin main
+   74  git add .
+   75  git commit -m "Setup project todo-app"
+   76  git branch -M main
+   77  git push -u origin main
+   78  php artisan serve
+   79  git status
+   80  git add .
+   81  git commit -m "setup app with style bootstrap"
+   82  git push
+   83  php artisan serve
+   84  composer require laravel/breeze --dev
+   85  php artisan breze:install
+   86  php artisan breeze:install
+   87  php artisan serve
+   88  php artisan migrate
+   89  php artisan serve
+   90  sudo mysql -u root
+   91  php artisan make:seeder UserSeeder
+   92  php artisan db:seed
+   93  php artisan serve
+   94  git add .
+   95  git commit -m "Fitur auth"
+   96  git push
+   97  php artisan make:model Task -mcr
+   98  php artisan migrate
+   99  php artisan serve
+  100  cls
+  101  php artisan serve
+  102  cls
+  103  exit;
+  104  wsl
+  105  php artisan serve
+  106  cls
+  107  exit;
+  108  php artisan serve
+  109  exit;
+  110  php artisan serve
+  111  php artisan migrate:fresh
+  112  USE todo_app;
+  113  USE todo_db;
+  114  mysql -u root -p
+  115  sudo mysql
+  116  SELECT * FROM users;
+  117  php artisan make:seeder TaskSeeder
+  118  php artisan db:seed --class=TaskSeeder
+  119  php artisan migrate:fresh --seed
+  120  mysql -u root -p
+  121  sudo mysql
+  122  exit;
+  123  php artisan serve
+  124  php artisan migrate:fresh --seed
+  125  sudo mysql
+  126  php artisan serve
+  127  cls
+  128  exit;
+  129  exit
+  130  php artisan serve
+  131  php artisan migrate:rollback
+  132  php artisan migrate
+  133  sudo mysql
+  134  php artisan db:seed
+  135  sudo mysql
+  136  php artisan serve
+  137  cls
+  138  exit;
+  139  php artisan make:controller Api/TaskApiController
+  140  composer require laravel/sanctum
+  141  php artisan vendor:publish --provider="Laravel\Sanctum\SanctumServiceProvider"
+  142  php artisan migrate
+  143  php artisan serve
+  144  cls
+  145  php artisan serve
+  146  curl -X GET http://127.0.0.1:8000/api/tasks --header "Accept: application/json"
+  147  php artisan serve
+  148  php artisan route:list
+  149  php artisan route:list | grep api
+  150  php artisan route:clear
+  151  php artisan serve
+  152  php artisan route:list --compact
+  153  php artisan route:list
+  154  php artisan serve
+  155  php artisan route:list
+  156  php artisan serve
+  157  php artisan route:clear
+  158  php artisan config:clear
+  159  php artisan optimize:clear
+  160  php artisan route:list
+  161  php artisan route:clear
+  162  php artisan config:clear
+  163  php artisan optimize:clear
+  164  php artisan serve
+  165* php artisan rou:list
+  166  php artisan route:clear
+  167  php artisan optimize:clear
+  168  php artisan serve
+  169  php artisan route:list
+  170  php artisan route:list --path=api
+  171  ls routes/
+  172  php artisan route:list --path=api
+  173  cat routes/api.php
+  174  php artisan route:clear
+  175  php artisan optimize:clear
+  176  php artisan route:list --path=api
+  177  php artisan route:clear
+  178  php artisan config:clear
+  179  php artisan optimize:clear
+  180  php artisan route:list --path=api
+  181  pwd
+  182  php artisan serve
+  183  php artisan route:list --path=api
+  184  php artisan route:list
+  185  php artisan serve
+  186  php artisan migrate:fresh --seed
+  187  php artisan serve
+  188  git add .
+  189  git commit -m "fitur crud task"
+  190  git push
+  191  php artisan config:cache
+  192  php artisan route:cache
+  193  php artisan view:cache
+  194  php artisan migrate:fresh --seed
+  195  php artisan config:clear
+  196  php artisan migrate:fresh --seed
+  197  pwd
+  198  history > todo_app.txt
